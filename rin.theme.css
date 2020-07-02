@@ -68,8 +68,7 @@
 .outer-1AjyKL,
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
 .channelTextArea-rNsIhG,
-.paymentPane-3bwJ6A,
-.messageContainer-gbhlwo
+.paymentPane-3bwJ6A
 {
     background-color: var(--lightbackground);
 }
@@ -130,7 +129,8 @@
 }
 
 .messages-3G3erD,
-.section-2gLsgF
+.section-2gLsgF,
+.messageContainer-gbhlwo
 {
     border-radius: 0px;
     background-color: var(--lightlightbackground);
