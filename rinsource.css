@@ -1,13 +1,8 @@
-//META{"name":"rin.tools theme","description":"discord theme for rin.tools","author":"kazu","version":"1.2"}*//{}
+/*
 
-:root
-{
-    --background: #19171C;
-    --lightbackground: #1e1c22;
-    --lightlightbackground: #2a2830;
-    --accent: #b81f1f;
-    --lightaccent: #d42626;
-}
+rin.tools theme
+
+*/
 
 .theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG,
 .searchBar-6Kv8R2,
@@ -55,7 +50,9 @@
 .members-1998pB,
 .sidebarRegionScroller-3MXcoP,
 .thin-1ybCId, .thin-1ybCId.fade-2kXiP2,
-.sidebar-2K8pFh
+.sidebar-2K8pFh,
+.scroller-2TZvBN,
+.members-1998pB, .members-1998pB>div
 {
     background-color: var(--background);
 }
@@ -63,9 +60,20 @@
 .header-8ilj5e,
 .container-3u944p,
 .theme-dark .card-3DjzTQ, .theme-dark .iconMask-3b8GzQ,
-.theme-dark .message-2qRu38
+.theme-dark .message-2qRu38,
+.guildSubscriptionSlots-JPXXvN,
+.outer-1AjyKL,
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+.channelTextArea-rNsIhG,
+.paymentPane-3bwJ6A
 {
     background-color: var(--lightbackground);
+}
+
+.themeDefault-24hCdX.valueChecked-m-4IJZ
+{
+    background: rgb(255,112,112);
+    background: linear-gradient(90deg, rgba(255,112,112,1) 0%, rgba(235,47,94,1) 50%, rgba(255,60,60,1) 100%);
 }
 
 .theme-light .action-1lSjCi
@@ -79,10 +87,17 @@
     color: whitesmoke;
 }
 
-.attachment-33OFj0
+.attachment-33OFj0,
+.theme-dark .gemIndicatorContainer-2jdECl
 {
     background-color: var(--lightbackground);
     border: solid 2px var(--lightlightbackground);
+}
+
+.tierLabel-39IsmN
+{
+    font-weight: 600;
+    font-size: 10px;
 }
 
 .anchor-3Z-8Bb
