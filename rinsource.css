@@ -1,3 +1,14 @@
+//META{"name":"[DEV] rin.tools","description":" ","author":"kazu","version":"1.0"}*//{}
+
+:root
+{
+    --background: #19171C;
+    --lightbackground: #1e1c22;
+    --lightlightbackground: #2a2830;
+    --accent: #b81f1f;
+    --lightaccent: #d42626;
+}
+
 .theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG,
 .searchBar-6Kv8R2,
 .activityPanel-28dQGo,
