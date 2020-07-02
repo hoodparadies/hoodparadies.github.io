@@ -73,6 +73,14 @@
     background-color: var(--lightbackground);
 }
 
+.jumpToPresentBar-9P20AM
+{
+    background-color: var(--lightlightbackground);
+    opacity: 1;
+    border-radius: 0px;
+    border-top: 2px solid var(--lightaccent);
+}
+
 .themeDefault-24hCdX.valueChecked-m-4IJZ
 {
     background: rgb(255,112,112);
@@ -245,7 +253,7 @@
 }
 
 .wordmark-2iDDfm::before{
-    content:'rin.tools';
+    content:'rin';
     font-size:17px;
     font-weight: normal;
     z-index:1000;
@@ -507,6 +515,8 @@
     background-color: var(--lightbackground);
 }
 
+
+
 /* TEXT */
 .markup-2BOw-j
 {
@@ -527,6 +537,17 @@
     border-color: var(--lightlightbackground);
     color: aliceblue;
 
+}
+
+.theme-dark .container-2x5lvQ .header-2C89wJ
+{
+    background-color: var(--background);
+}
+
+.button-1YfofB.buttonColor-7qQbGO,
+.theme-dark .container-2x5lvQ section
+{
+    background-color: var(--lightbackground);
 }
 
 .theme-dark .form-2fGMdU:before,
