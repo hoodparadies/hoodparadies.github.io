@@ -253,7 +253,7 @@
 }
 
 .wordmark-2iDDfm::before{
-    content:'rin';
+    content:'wrath is fat';
     font-size:17px;
     font-weight: normal;
     z-index:1000;
@@ -265,7 +265,7 @@
     left:10px;
     background-color:transparent;
 }
-
+/*
 .wordmark-2iDDfm::after{
     content:'.tools';
     font-size:17px;
@@ -279,6 +279,7 @@
     left:28px;
     background-color:transparent;
 }
+*/
 
 .theme-dark .uploadModal-2ifh8j,
 .theme-dark .footer-3mqk7D
