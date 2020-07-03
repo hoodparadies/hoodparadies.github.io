@@ -52,10 +52,14 @@
 .measurement-DMxQp7,
 .members-1998pB,
 .sidebarRegionScroller-3MXcoP,
-.thin-1ybCId, .thin-1ybCId.fade-2kXiP2,
+/*.thin-1ybCId, .thin-1ybCId.fade-2kXiP2,*/
+.scroller-1JbKMe,
+.container-PNkimc,
 .sidebar-2K8pFh,
 .scroller-2TZvBN,
-.members-1998pB, .members-1998pB>div
+.members-1998pB, .members-1998pB>div,
+.theme-dark .tierHeaderLocked-1s2JJz,
+.theme-dark .keyboardShortcutsModal-3piNz7
 {
     background-color: var(--background);
 }
@@ -73,9 +77,47 @@
 .searchHeader-1EzJGH,
 .theme-dark .codeRedemptionRedirect-1wVR4b,
 .preview-2nSL_2,
-.theme-dark .quickSelectPopout-X1hvgV
+.theme-dark .quickSelectPopout-X1hvgV,
+.theme-dark .perksModal-fSYqOq
 {
     background-color: var(--lightbackground);
+}
+
+.theme-dark .keybindShortcut-1BD6Z1 span
+{
+    background-color: var(--lightlightbackground);
+    box-shadow: inset 0 -4px 0 rgba(114, 108, 129, 0.603);
+}
+
+.akaBadge-1M-1Gw
+{
+    border-radius: 0px;
+    background-color: #2f2d36;
+}
+
+.icon-22AiRD
+{
+    color: rgb(196, 196, 196);
+}
+
+.lookOutlined-3sRXeN.colorRed-1TFJan
+{
+    background: rgb(255,112,112);
+    background: linear-gradient(90deg, rgba(255,112,112,1) 0%, rgba(235,47,94,1) 50%, rgba(255,60,60,1) 100%);
+    border: none;
+    color: whitesmoke;
+}
+
+.theme-dark .ctaBar-2UsjF2,
+.theme-dark .tierBody-16Chc9,
+.theme-dark .perk-2WeBWW
+{
+    background-color: var(--lightlightbackground);
+}
+
+.disableColor-MwOAZf, .iconBackgroundTierNone-3MPhMJ, .iconBackgroundTierOne-2LhaMB, .iconBackgroundTierThree-3qw3JX, .iconBackgroundTierTwo-3bCmdc
+{
+    color: var(--lightlightbackground);
 }
 
 .channelName-wvgELL
