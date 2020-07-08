@@ -59,7 +59,8 @@
 .members-1998pB, .members-1998pB>div,
 .theme-dark .tierHeaderLocked-1s2JJz,
 .theme-dark .keyboardShortcutsModal-3piNz7,
-.listeningAlong-30wH70
+.listeningAlong-30wH70,
+.scroller-3GIiMh
 {
     background-color: var(--background);
 }
@@ -78,9 +79,18 @@
 .theme-dark .codeRedemptionRedirect-1wVR4b,
 .preview-2nSL_2,
 .theme-dark .quickSelectPopout-X1hvgV,
-.theme-dark .perksModal-fSYqOq
+.theme-dark .perksModal-fSYqOq,
+.theme-light .modal-yWgWj-,
+.scroller-2hZ97C,
+.content-1LAB8Z,
+.gatedContent-3-B7qB
 {
     background-color: var(--lightbackground);
+}
+
+.theme-light .input-1mgnkM
+{
+    color: whitesmoke;
 }
 
 .theme-dark .keybindShortcut-1BD6Z1 span
@@ -208,7 +218,8 @@
     background-color: var(--lightlightbackground);
 }
 
-.tertiary-aMXF0g
+.tertiary-aMXF0g,
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa
 {
     background-color: var(--lightlightbackground);
 }
