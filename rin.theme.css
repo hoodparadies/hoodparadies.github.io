@@ -60,9 +60,22 @@
 .theme-dark .tierHeaderLocked-1s2JJz,
 .theme-dark .keyboardShortcutsModal-3piNz7,
 .listeningAlong-30wH70,
-.scroller-3GIiMh
+.scroller-3GIiMh,
+.searchHeader-2XoQg7,
+.channelName-1JRO3C,
+.searchResult-9tQ1uo .hit-1fVM9e .messageGroupCozy-2-Q370
 {
-    background-color: var(--background);
+    background-color: var(--background)!important;
+}
+
+.searchResult-9tQ1uo:after, .searchResult-9tQ1uo:before
+{
+    visibility: hidden;
+}
+
+.searchResultMessage-1fxgXh.hit-1fVM9e
+{
+    box-shadow: none;
 }
 
 .header-8ilj5e,
@@ -88,6 +101,17 @@
     background-color: var(--lightbackground);
 }
 
+.panels-j1Uci_,
+.privateChannels-1nO12o
+{
+    background: none;
+}
+
+.item-2hkk8m
+{
+    background-color: #ded6f7;
+}
+
 .theme-light .input-1mgnkM
 {
     color: whitesmoke;
@@ -108,6 +132,11 @@
 .icon-22AiRD
 {
     color: rgb(196, 196, 196);
+}
+
+.newMessagesBar-mujexs
+{
+    background-color: var(--lightaccent);
 }
 
 .lookOutlined-3sRXeN.colorRed-1TFJan
@@ -256,7 +285,6 @@
     background-color: var(--accent);
 }
 
-
 .theme-dark .tierBody-x9kBBp
 {
     background-color: var(--lightlightbackground);
@@ -399,8 +427,6 @@
     border-top: var(--lightaccent) solid 1px;
 }
 
-/* vc limit */
-
 .wrapper-pZmgj4
 {
     border-radius: 0px;
@@ -498,7 +524,6 @@
     background-color: var(--lightlightbackground);
 }
 
-
 .userPopout-3XzG_A.da-userPopout::before
 {
     content: "";
@@ -552,7 +577,6 @@
     background-color: var(--lightbackground);
 }
 
-
 .circleIconButton-jET_ig,
 .scrollableContainer-2NUZem,
 .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU,
@@ -577,8 +601,6 @@
     border-top: 2px solid var(--lightaccent);
 }
 
-/* INPUT BOX */
-
 .scrollableContainer-2NUZem
 {
     border-radius: 0px!important;
@@ -590,15 +612,11 @@
     background-color: var(--lightbackground);
 }
 
-
-
-/* TEXT */
 .markup-2BOw-j
 {
     color: #ede5fd;
 }
 
-/* SPOILER */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9
 {
     background-color: #0f0e11;
